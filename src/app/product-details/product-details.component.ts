@@ -22,5 +22,4 @@ export class ProductDetailsComponent implements OnInit {
     // Find the product with id provided in route.
     this.product = products.find(product => product.id === productIdFromRoute);
   }
-
 }
